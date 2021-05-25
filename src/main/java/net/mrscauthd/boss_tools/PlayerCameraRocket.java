@@ -51,6 +51,7 @@ public class PlayerCameraRocket extends BossToolsModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent
 	public void setupFOVPlayer(EntityViewRenderEvent.FOVModifier event) {
+		PointOfView.field_243189_d.
 		// test
 		/*
 		 * Entity entity = event.getInfo().getRenderViewEntity();
